@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+body{
+    background-color: black;
+}
+
+*{
+    padding: 0 0;
+    margin: 0 0;
+  }
+
+.navbar{
+    width: auto;
+    height: 8vh;
+    padding: 0px 100px;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 2px solid whitesmoke;
+    font-size: 17px;
+  }
+  .navbar a{
+    margin: 15px;
+    padding: 0px;
+    text-decoration: none;
+    color: whitesmoke;
+    position: relative;
+    transition: 0.25s ease;
+  }
+  
+  .navbar button{
+    margin: 15px;
+    text-decoration: none;
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    position: relative;
+  }
+  
+  
+  .navbar #music:hover{
+    color: #ffc300;
+    box-shadow: 0 2px 0 0 currentColor;
+  }
+  .navbar a:hover{
+    color: #ffc300;
+    box-shadow: 0 2px 0 0 currentColor;
+  }
+  
+  .link{
+    float: right;
+  }
+  .logo{
+    float: left;
+  }
+  
+  .iconflag{
+    height: 25%;
+    width: 25%;
+  }
+  
+  .music{
+    float: right;
+    margin: 0px;
+  }
+  
+  .music button{
+      border: none;
+      color: whitesmoke;
+      padding: 0px 10px;
+      font-size: 17px;
+      font-family: "Poppins", sans-serif;
+  }
+  
+  .music button:hover{
+    color: #ffc300;
+  }
+  
+  #music span{
+      color: green;
+  }
+  
+  #music i{
+      color: red;
+      text-decoration: none;
+  }
+
+#error-message{
+    display:none;
+  }
+
+@media only screen and (max-width: 767px) {
+    #main-content{
+      display: none;
+    }
+    body{
+      background-color: black;
+      color: whitesmoke;
+    }
+    #error-message{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: auto;
+  
+    }
+    #error-message h4{
+      color: whitesmoke;
+      font-size: 14px;
+      font-family: "Poppins", sans-serif;
+    }
+  }

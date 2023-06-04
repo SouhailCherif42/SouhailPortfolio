@@ -1,0 +1,296 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+    padding: 0 0;
+    margin: 0 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: black;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color:black;
+    border-radius: 15px;
+}
+  
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: antiquewhite;
+}
+
+.navbar{
+  width: auto;
+  height: 8vh;
+  padding: 0px 100px;
+  font-family: "Poppins", sans-serif;
+  border-bottom: 2px solid whitesmoke;
+  font-size: 17px;
+}
+.navbar a{
+  margin: 15px;
+  padding: 0px;
+  text-decoration: none;
+  color: whitesmoke;
+  position: relative;
+  transition: 0.25s ease;
+}
+
+.navbar button{
+  margin: 15px;
+  text-decoration: none;
+  border: none;
+  background-color: black;
+  color: whitesmoke;
+  position: relative;
+}
+
+
+.navbar #music:hover{
+  color: #ffc300;
+  box-shadow: 0 2px 0 0 currentColor;
+}
+.navbar a:hover{
+  color: #ffc300;
+  box-shadow: 0 2px 0 0 currentColor;
+}
+
+.link{
+  float: right;
+}
+.logo{
+  float: left;
+}
+
+.iconflag{
+  height: 25%;
+  width: 25%;
+}
+
+.music{
+  float: right;
+  margin: 0px;
+}
+
+.music button{
+    border: none;
+    color: whitesmoke;
+    padding: 0px 10px;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+}
+
+.music button:hover{
+  color: #ffc300;
+}
+
+#music span{
+    color: green;
+}
+
+#music i{
+    color: red;
+    text-decoration: none;
+}
+
+#skills{
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 100%;
+    margin-bottom: 2vh;
+  }
+  
+  #skills h1{
+    color: #ffc300;
+    font-size: 6vh;
+    font-family: "Poppins", sans-serif;
+    margin: 10px;
+  }
+  
+  .haut h4{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  }
+  .bar{
+    width: 5%;
+    height: auto;
+    margin-left: 0px;
+  }
+  
+  .right2{
+    padding: 20px 40px;
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 60%;
+  }
+
+  .barreskill{
+    width: 40%;
+    height: 1vh;
+    background-color: white;
+    position: absolute;
+    padding: 0 20px;
+    margin: 10px 30px;
+  }
+
+  .barreskill1{
+    width: 80%;
+    height: 1vh;
+    background-color: #ffc300;
+    position: relative;
+    padding: 0 20px;
+    margin: 10px 30px;
+    animation:loading1 2s forwards;
+  }
+
+  .barreskill2{
+    width: 69%;
+    height: 1vh;
+    background-color: #ffc300;
+    position: relative;
+    padding: 0 20px;
+    margin: 10px 30px;
+    animation: loading2 2s forwards;
+  }
+
+  .barreskill3{
+    width: 50%;
+    height: 1vh;
+    background-color: #ffc300;
+    position: relative;
+    padding: 0 20px;
+    margin: 10px 30px;
+    animation: loading3 2s forwards;
+  }
+  
+  .barreskill4{
+    width: 5%;
+    height: 1vh;
+    background-color: #ffc300;
+    position: relative;
+    padding: 0 20px;
+    margin: 10px 30px;
+    animation:loading4 2s forwards;
+  }
+
+  @keyframes loading4 {
+    0%{
+      width: 0%;
+    }
+
+    100%{
+      width: 35%;
+    }
+  }
+
+  @keyframes loading1 {
+    0%{
+      width: 0%;
+    }
+
+    100%{
+      width: 69%;
+    }
+  }
+
+  @keyframes loading2 {
+    0%{
+      width: 0%;
+    }
+
+    100%{
+      width: 50%;
+    }
+  }
+
+  @keyframes loading3 {
+    0%{
+      width: 0%;
+    }
+
+    100%{
+      width: 40%;
+    }
+  }
+
+  .left2{
+    padding: 20px 20px;
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .left2 p{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+  }
+  .haut{
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .bas{
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .cards{
+    display: flex;
+  }
+
+  .cards div{
+    height: auto;
+    width: 50%;
+    background-color: #495057;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin: 0px 10px;
+    border: 3px solid whitesmoke;
+  }
+
+  .cards div h2{
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    display: inline-flex;
+    padding: 10px 10px;
+    
+  }
+
+  .cards div h3 {
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    padding: 0px 10px;
+  }
+
+  .cards div h4 {
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 20px 10px;
+  }
+
+  .cards div span{
+    color: white;
+    margin-right: 10px;
+  }

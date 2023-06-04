@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <script href="test.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/solid.min.css" integrity="sha512-yDUXOUWwbHH4ggxueDnC5vJv4tmfySpVdIcN1LksGZi8W8EVZv4uKGrQc0pVf66zS7LDhFJM7Zdeow1sw1/8Jw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Souhail</title>
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html" class="logo"> Souhail</a>
+    <button id="language" class="link"><img src="Autres/fraflag.png" class="iconflag"><img src="Autres/usaflag.png" class="iconflag"></button>
+    <div class="music">
+      <audio id="audio" src="Autres/Doitagain.mp3"></audio>
+      <button onclick="var audio = document.getElementById('audio');var music = document.getElementById('music');
+      if (audio.paused) {audio.play();music.innerHTML = 'Sound <span>ON</span>';} else {audio.pause();music.innerHTML = 'Sound <i>OFF</i>';}"id="music">Sound <i>OFF</i></button>
+    </div>
+    <a href="contact.html" class="link">Contact</a>
+        <a href="aboutme.html" class="link" id="a2">About me</a>
+        <a href="Skills.html" class="link" id="a4">Skills</a>
+        <a href="portfolio.html" class="link" id="a3">Portfolio</a>
+        <a href="index.html" class="link" id="a5">Home</a>
+  </div>
+  <div id="slider" class="slider">
+    <div class="slider-track">
+      <div class="slider-item">
+        <div class="box1" id="box1">
+            <div class="div1">
+              <h1>Photographie de Chiara Martin</h1>
+            </div>
+            <div class="div2">
+                <div class="boxback"></div>
+                <div class="boxback2"></div>
+                <img src="Images Sites/1.png" class="image">
+            </div>
+            <div class="div3">
+              <h2> <> Projet Web : HTML/CSS/JS</h2>
+              <p>J'ai réalisé la création complète du site internet de Chiara Martin, une photographe talentueuse. En utilisant des langages tels que HTML, CSS et JavaScript j'ai structuré le contenu du site et défini son style visuel. Le résultat est un site web statique qui met en valeur les superbes photographies de Chiara. Le site est conçu pour offrir une expérience utilisateur fluide et immersive, permettant aux visiteurs de découvrir et d'apprécier pleinement le travail de Chiara. </p>
+              <h3>- S.CHERIF</h3>
+            </div>
+      </div>
+      </div>
+      <div class="slider-item">
+        <div class="box2" id="box2">
+            <div class="div1">
+              <h1>A56 HeadSet</h1>
+            </div>
+            <div class="div2">
+              <div class="boxback"></div>
+              <div class="boxback2"></div>
+              <img src="Images Sites/2.png" class="image">
+            </div>
+            <div class="div3">
+              <h2> <> Projet E-Commerce : React.JS</h2>
+              <p>J'ai développé une plateforme spécialisée dans la vente exclusive du casque audio A56 et de ses dérivés. Utilisant React JS, j'ai créé une interface réactive et conviviale pour permettre aux utilisateurs de découvrir et d'acheter facilement les différents modèles et accessoires du casque A56. Le site propose un processus d'achat simplifié avec un panier d'achat et des paiements sécurisés. "CasqueA56World" offre une expérience d'achat spécialisée et optimisée pour les amateurs de casques audio de haute qualité.</p>
+              <h3>- S.CHERIF</h3>
+            </div>
+          </div>
+      </div>
+      <div class="slider-item">
+        <div class="box3">
+            <div id="box3"></div>
+            <div class="div1">
+              <h1>T.DUFOUR - TREXX</h1>
+            </div>
+            <div class="div2">
+              <div class="boxback"></div>
+              <div class="boxback2"></div>
+              <img src="Images Sites/3.png" class="image">
+            </div>
+            <div class="div3">
+              <h2><> Projet Web : React.JS</h2>
+              <p>J'ai développé un site internet pour un joueur professionnel d'esport, mettant en avant ses meilleurs moments ainsi que ses actualités. Ce site, créé avec React JS, offre une interface interactive et réactive pour permettre aux visiteurs de découvrir les faits saillants et les moments forts de sa carrière. De plus, les actualités sont régulièrement mises à jour pour tenir les fans informés des derniers développements. Grâce à l'utilisation de React JS, le site offre une expérience utilisateur immersive et engageante, mettant en valeur le talent et les réalisations du joueur professionnel d'esport.</p>
+              <h3>- S.CHERIF</h3>
+            </div>
+          </div>
+      </div>
+      <div class="slider-item">
+        <div class="box4" id="box4">
+            <div class="div1">
+              <h1>TEKTIAS</h1>
+            </div>
+            <div class="div2">
+              <div class="boxback"></div>
+              <div class="boxback2"></div>
+              <img src="Images Sites/4.png" class="image">
+            </div>
+            <div class="div3">
+              <h2><> Projet Web : HTML/SCSS/JS </h2>
+              <p>J'ai récemment réalisé la création du site web pour une série d'objets connectés captivante. En utilisant une combinaison de langages HTML, SCSS et JavaScript, j'ai développé une interface conviviale et interactive. Le site met en valeur les caractéristiques uniques de chaque objet connecté, en fournissant des informations détaillées, des images attrayantes et des fonctionnalités interactives. Grâce à l'utilisation de HTML, SCSS et JS, j'ai pu créer un site web dynamique, esthétiquement plaisant et fonctionnel pour présenter cette série d'objets connectés de manière captivante.</p>
+              <h3>- S.CHERIF</h3>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="navigation-buttons">
+        <button class="nav-button" data-slide="0">
+          <div class="content1">
+
+          </div>
+        </button>
+        <button class="nav-button" data-slide="1">
+          <div class="content2">
+            
+          </div>
+        </button>
+        <button class="nav-button" data-slide="2">
+          <div class="content3">
+            
+          </div>
+        </button>
+        <button class="nav-button" data-slide="3">
+          <div class="content4">
+            
+          </div>
+        </button>
+      </div>
+  </div>
+      
+      
+        
+       <script>
+  const slider = document.getElementById("slider");
+const sliderTrack = slider.getElementsByClassName("slider-track")[0];
+const sliderItems = slider.getElementsByClassName("slider-item");
+const navButtons = document.getElementsByClassName("nav-button");
+
+let currentPosition = 0;
+let autoScrollInterval;
+let restartTimeout;
+
+function scrollToSlide(slideIndex) {
+  if (slideIndex >= 0 && slideIndex < sliderItems.length) {
+    const slideWidth = slider.offsetWidth;
+    const newPosition = -slideIndex * slideWidth;
+    currentPosition = newPosition;
+    sliderTrack.style.transform = `translateX(${currentPosition}px)`;
+  }
+}
+
+function startAutoScroll() {
+  autoScrollInterval = setInterval(() => {
+    const currentSlideIndex = Math.abs(Math.round(currentPosition / slider.offsetWidth)) % sliderItems.length;
+    const nextSlideIndex = (currentSlideIndex + 1) % sliderItems.length;
+    scrollToSlide(nextSlideIndex);
+  }, 10000);
+}
+
+function stopAutoScroll() {
+  clearInterval(autoScrollInterval);
+  clearTimeout(restartTimeout);
+}
+
+function restartAutoScroll() {
+  stopAutoScroll();
+  restartTimeout = setTimeout(() => {
+    startAutoScroll();
+  }, 15000);
+}
+
+for (let i = 0; i < navButtons.length; i++) {
+  navButtons[i].addEventListener("click", function () {
+    const slideIndex = parseInt(this.getAttribute("data-slide"));
+    scrollToSlide(slideIndex);
+    restartAutoScroll();
+  });
+}
+
+startAutoScroll();
+
+
+
+window.onbeforeunload = function () {
+  window.scrollTo(0,0);
+}
+       </script>
+   
+</body>
+</html>
